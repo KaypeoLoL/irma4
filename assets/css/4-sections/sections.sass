@@ -1,0 +1,70 @@
+.sections
+  display: flex
+  flex-direction: column
+  width: calc(100% - 135px)
+  margin-left: 135px
+
+  //...About
+  #about
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 100%
+    height: 400px
+    background:
+      image: url(assets/img/profile4-ps.jpg)
+      size: cover
+      repeat: no-repeat
+      position: center
+    .col-1
+      width: 300px
+      height: 300px
+      h2
+        font-size: 50px
+        color: white
+
+  //...Blog
+  #blog
+    display: flex
+    justify-content: center
+    flex-direction: column
+    width: 100%
+    height: 700px
+    background-color: gray
+
+    .news-header
+    .news
+      display: flex
+      justify-content: center
+      width: 1400px
+      height: 600px
+      background-color: gray
+      .col-2
+        width: 50%
+        height: 100%
+        background:
+          color: gray
+          image: url(assets/img/cover1.jpg)
+          repeat: no-repeat
+        background-size: cover
+        background-position: center
+        display: flex
+        flex-direction: column
+        .col-2-2
+          height: 50%
+          background:
+            color: gray
+            image: url(assets/img/cover2.jpg)
+            repeat: no-repeat
+          background-size: cover
+          background-position: center
+
+
+  #albums
+    width: 100%
+    height: 400px
+    background-color: red
+  #contact
+    width: 100%
+    height: 400px
+    background-color: blue
